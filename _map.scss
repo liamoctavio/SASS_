@@ -1,0 +1,23 @@
+$color: (
+    primary:#449944,
+    secondary:#444499
+);
+
+
+$color2: (
+    primary:#f3007a,
+    secondary:#ebac00
+);
+
+h2{
+    color: map-get($color, primary);
+}
+
+h3{
+    color: map-get($color2, secondary );
+}
+
+div{
+    background-color: map-get($color2, primary );
+    color: map-get($color2, primary );
+}

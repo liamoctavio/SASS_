@@ -145,4 +145,17 @@ menu a {
   }
 }
 
+h2 {
+  color: #449944;
+}
+
+h3 {
+  color: #ebac00;
+}
+
+div {
+  background-color: #f3007a;
+  color: #f3007a;
+}
+
 /*# sourceMappingURL=output.css.map */
